@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+     background-image: url(https://images.unsplash.com/photo-1688955655025-1b52d051f669?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2938&q=80);
+     background-size: cover;
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  h1, h2{
+    color: aqua;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* #car { 
+  width: 500px;
+  height: 500px; 
+  background-color: aquamarine;
+  display: flex;
+   justify-content: space-around; 
+   align-items: center;
+
+  }
+  #carl {
+    width: 100px;
+    height: 120px;
+    
+    background-color:red;
+  }
+  #car2 {
+    width: 110px;
+   
+    height: 90px;
+    background-color:blueviolet;
+  }
+  #car3 {
+    width: 130px;
+    height: 110px;
+    background-color:green;
+  } */
+
+  
