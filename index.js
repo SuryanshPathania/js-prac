@@ -13,11 +13,17 @@
 // let sum = (a,b) => a+b
 // console.log (sum(3,4))
 
-let num = [1,2,3,4,5];
-console.log(num.length);
-console.log("I ")
-setTimeout(() => {
-    console.log("async ")
-}, 5000);
-console.log("am")
+// let num = [1,2,3,4,5];
+// console.log(num.length);
+// console.log("I ")
+// setTimeout(() => {
+//     console.log("async ")
+// }, 5000);
+// console.log("am")
+
+
+result = 20.203;
+result = parseInt(result);
+console.log(result);
+console.log(typeof result) // parseint converts number in integer vaise hi parsefloat kar sakte
 
