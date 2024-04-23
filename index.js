@@ -22,8 +22,23 @@
 // console.log("am")
 
 
-result = 20.203;
-result = parseInt(result);
-console.log(result);
-console.log(typeof result) // parseint converts number in integer vaise hi parsefloat kar sakte
+// result = 20.203;
+// result = parseInt(result);
+// console.log(result);
+// console.log(typeof result) // parseint converts number in integer vaise hi parsefloat kar sakte
 
+let ch = 4; // Assigning a value to ch, assuming it's meant to represent a choice
+
+switch(ch) {
+  case 1:
+    console.log("1");
+    break;
+  case 2:
+    console.log("2");
+    break;
+  case 3:
+    console.log("3");
+    break;
+  default:
+    console.log("You pressed the wrong choice");
+}
