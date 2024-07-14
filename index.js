@@ -67,23 +67,83 @@
 // In the second code, the sum is calculated and directly printed to the console inside the add function. There's no explicit return value.
 
 // function without name is called anonymous function
-let fun =function(){
-  console.log("hi");
-}
+// let fun =function(){
+//   console.log("hi");
+// }
 
-fun();
-  // another way to envoke it is
- ( function(){
-    console.log("hi");
-  })();
+// fun();
+//   // another way to envoke it is
+//  ( function(){
+//     console.log("hi");
+//   })();
 
 // arrow function
 
 // let add = (a,b,c) => console.log(a+b+c);
 // add(10,10,10);
 
-   let name =["jon","jane","raam"]
-   name.splice(3 ,0, "naam") ;
-   console.log(name)
+  //  let name =["jon","jane","raam"]
+  //  name.splice(3 ,0, "naam") ;
+  //  console.log(name)
 
 
+// loop
+
+// calculate sum of 1 to 5
+// let sum = 0;
+// for (let i=1; i <= 5; i++){
+//   sum = sum+i;
+// }
+// console.log("sum = ", sum)
+// console.log("loop has ended")
+
+// let i= 20;
+// do {
+//   console.log("apna college")
+// }while (i<=10)
+
+// for(let i=7 ;i<=10; i++){
+//   console.log("suryansh pathania")
+// }
+ 
+// let i = 7;
+// while (i<=10) {
+//   console.log(" pathania");
+// i++;
+// }
+
+// // PRINT ALL NUMBERS FROM 0 TO 100
+// for (let i=0 ; i<=100 ; i++)
+// {
+//   console.log("i= ",i)
+// }
+// //  // print all even number from 0 to 100
+//  for (let i=0 ; i<=100 ; i++)
+//   {
+//    if(i%2==0){
+//      console.log("i= ",i);
+//    }
+//    else
+//    {
+//    }
+//   }
+
+//   // print all odd number from 0 to 100
+//   for (let i=0 ; i<=100 ; i++)
+//     {
+//      if(i % 2 !== 0){
+//        console.log("i= ",i);
+//      }
+//      else
+//      {
+//      }
+//     }
+
+let num = 16;
+
+let userNumber = prompt("Enter number here");
+
+while(userNumber != num){
+ userNumber=prompt("you entered wrong number guess again");
+}
+console.log("you entered right number");
