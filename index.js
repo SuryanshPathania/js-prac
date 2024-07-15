@@ -139,11 +139,12 @@
 //      }
 //     }
 
-let num = 16;
+// let num = 16;
 
-let userNumber = prompt("Enter number here");
+// let userNumber = prompt("Enter number here");
 
-while(userNumber != num){
- userNumber=prompt("you entered wrong number guess again");
-}
-console.log("you entered right number");
+// while(userNumber != num){
+//  userNumber=prompt("you entered wrong number guess again");
+// }
+// console.log("you entered right number");
+
