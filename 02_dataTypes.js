@@ -7,7 +7,7 @@ console.log(3 + 3)
 
  let state ; // undefined
 
- // null => standalone value  
+ // null => standalone value  (empty)
  // undefined => abhi value assign nhi hui
  // symbol  => uniqueness ke liye use hota
  // object 
