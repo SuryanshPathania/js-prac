@@ -14,3 +14,21 @@ console.log(undefined < 0);
 
 console.log("2" === 2);
 console.log("2" == 2);
+
+//postfix
+let x = 5;
+let y = x++; // y is assigned the value of 5, then x is incremented to 6.
+console.log(x); // Output: 6
+console.log(y); // Output: 5
+
+
+
+
+//prefix
+let x = 5;
+let y = x--; // y is assigned the value of 5, then x is decremented to 4.
+console.log(x); // Output: 4
+console.log(y); // Output: 5
+
+
+
