@@ -35,3 +35,4 @@ console.log("B" ,myArr);
 const myn2 = myArr.splice(1,3)//slice vs splice yeh fark hota splice ka portion h at jata
 console.log("C" ,myArr);
 console.log(myn2);
+
