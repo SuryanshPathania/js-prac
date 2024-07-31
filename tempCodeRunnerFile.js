@@ -1,1 +1,1 @@
-let myTimeStamp = new Date()
+marvelheros.push(dc)
