@@ -1,1 +1,1 @@
-marvelheros.push(dc)
+console.log(jsuser.greeting());
