@@ -7,9 +7,13 @@ console.log(` hello my name is ${name} and my repount is ${repoCount}`);// bette
 
 
 const gameName = new String(`hiteshc`) // 
-// The code const gameName = new String('hiteshhc'); creates a new String object in JavaScript. In JavaScript, the new keyword is used to create an instance of an object. When you use new with a constructor function (like String), it creates a new object that is an instance of that function
+// The code const gameName = new String('hiteshhc'); creates a new String object in JavaScript. In JavaScript, the new keyword is used to create an instance of an object. When you use new with a constructor function (like String), it creates a new object that is an instance of that function The new keyword in JavaScript is used to create an instance of an object from a constructor function or built-in object like String, Array, Object, etc.
+// new Object()
+// Creates an empty object.
+// new Array()
+// Creates a new array.
 
-console.log(gameName[0]);
+console.log(gameName[0]); 
 console.log(gameName.__proto__);//__proto__: This is like the instructions or blueprint for making toy cars.When you write console.log(gameName.__proto__);, you’re asking JavaScript to show you the blueprint (prototype) for the gameName object, which includes all the built-in methods and properties that come with string objects. This helps you understand what your gameName object can do.
 
 
@@ -32,7 +36,7 @@ const anotherString = gameName.slice(-7 , 4)
 
 const newStringOne = "   hitesh   "
 console.log(newStringOne); 
-console.log(newStringOne.trim());// starting aur end space khatam kardeta
+console.log(newStringOne.trim());// starting aur end space khatam kardeta works only on white space and line terminators
 
 console.log(newStringOne); 
 
