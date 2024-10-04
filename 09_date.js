@@ -2,8 +2,6 @@
 let myDate = new Date()// date ka object ban gya
 console.log(myDate);
 console.log(myDate.toString());
-// console.log(myDate.toISOString());
-// console.log(myDate.toJSON());
 console.log(myDate.toLocaleString());
 console.log(typeof myDate);
 
@@ -18,15 +16,25 @@ let myTimeStamp = Date.now()//The code gets the current time in milliseconds and
 console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());// we compare 2 values to to get date
 console.log(Math.floor(Date.now()/1000))// /1000 converts in seconds as they are in milliseconds math.floor removes decimal
+
+
+
 let newDate = new Date()
     console.log(newDate);
-    console.log(newDate.getMonth());// 0 se start kar rha
+    console.log(newDate.getMonth() );// 0 se start kar rha  + 1 kardenge to exact dega
+// aise hi .getday karke day aajate
+ 
 
- console.log(   newDate.toLocaleString('default',{
-        weekday: "short"
-    
+// `${newDate.getDay()} and the time ` string interpolation se karte logg
+
+console.log(   newDate.toLocaleString('default',{
+        weekday: "long", 
+        month: "short"  //short  // default valli jagah pe internationalisation lihte
 
     }))// using locale-specific conventions.
+
+  
+
 
 
 

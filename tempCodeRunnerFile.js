@@ -1,1 +1,1 @@
-console.log(jsuser.greeting());
+console.log(myDate.toDateString());
