@@ -1,2 +1,3 @@
-    let result = number1 + number2
-    return result
+function addone(num){
+    return num + 1
+}
