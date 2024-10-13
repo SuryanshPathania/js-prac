@@ -1,3 +1,1 @@
-function addone(num){
-    return num + 1
-}
+console.log(addTwo(3, 4))
