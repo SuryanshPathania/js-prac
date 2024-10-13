@@ -1,1 +1,3 @@
-console.log(addTwo(3, 4))
+( () => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('hitesh')
