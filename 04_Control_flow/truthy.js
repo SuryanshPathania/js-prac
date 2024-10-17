@@ -1,6 +1,6 @@
 const userEmail = []
 
-if (userEmail) {
+if (userEmail) {   // empty string mein false // empty array 
     console.log("Got user email");
 } else {
     console.log("Don't have user email");
@@ -19,17 +19,17 @@ if (userEmail) {
 
 const emptyObj = {}
 
-if (Object.keys(emptyObj).length === 0) {
+if (Object.keys(emptyObj).length === 0) {// bject.keys() is a built-in JavaScript method that returns an array of a given object's (keys).
     console.log("Object is empty");
 }
 
-// Nullish Coalescing Operator (??): null undefined
+// Nullish Coalescing Operator (??): null // undefined
 
 let val1;
-// val1 = 5 ?? 10
-// val1 = null ?? 10
-// val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+// val1 = 5 ?? 10 //5
+// val1 = null ?? 10   // 10
+// val1 = undefined ?? 15   //15
+val1 = null ?? 10 ?? 20   //10
 
 
 

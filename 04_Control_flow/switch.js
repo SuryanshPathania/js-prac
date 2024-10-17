@@ -10,9 +10,10 @@
 const month = "march"
 
 switch (month) {
-    case "jan":
+    case "jan":  // shift +alt+ down arrow  // duplicate hota
         console.log("January");
         break;
+    
     case "feb":
         console.log("feb");
         break;
