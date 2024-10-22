@@ -3,7 +3,7 @@ const myNums = [1, 2, 3]
 // const myTotal = myNums.reduce(function (acc, currval) {
 //     console.log(`acc: ${acc} and currval: ${currval}`);
 //     return acc + currval
-// }, 0)
+// }, 0) // acc ki initial value di hai 0
 
 const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 
@@ -32,3 +32,14 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+
+
+
+
+//Summary Cheat Code:
+// for...in: Iterate over keys in an object or indices in an array.
+// for...of: Iterate over values in an array, string, or other iterable.
+// forEach(): Iterate over array values but does not return anything.
+// map(): Creates a new array by transforming each element.
+// filter(): Creates a new array by keeping only elements that pass a test.
+
