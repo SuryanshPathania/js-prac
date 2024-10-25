@@ -12,6 +12,53 @@
         </div>
     </body> -->
 
+
+    <!-- //document.getElementId("title") method to target karne k liye -->
+ <!-- ('title').id -- id
+ ('title').class -- undefined
+ ('title').className --classname      -->
+ <!-- ('title').getattribute('id') -- id
+ ('title').getattribute('class') -- class -->
+ <!-- ('title').setattribute('class', 'test') -- humesha overwrite karega -->
+<!-- const title = document.getElementId("title") -->
+ <!-- title.style.backgroundcolor = 'green'
+ title.style.borderradius = '15px'
+title.textcontent se content mil jata sarra content milta chahe hidden ho naho
+.innerHtml se content men jo html use hua vo bhi aata
+.innnerText  se vo content aata jo visible hai
+
+select karne k tarike
+jaise css selector hotte vo sab likh sakte
+document.getelementbyclassName('heading')
+ doucument.queryselector('h1')  ---> first h1 dega 
+ <!-- doucument.queryselector('#id')  ---> first  dega 
+ <!-- doucument.queryselector('.class')  ---> first dega -->
+ <!--doucument.queryselector('ul')  input tag type attribute
+ const myul = doucument.queryselector('ul')
+ myul.queryselctor('li')
+const turngreen =  myul.queryselctor('li')
+turngreen.style.backgroundColor = "green"
+turngreen.innertext
+turngreen.innertext = "five" -->>
+ 
+document.query selector all('li')  selects all
+templlilist =document.query selector all('li')  selects all
+templist.style.color = 'green'   undefined because its nodelist its not array
+templilist[0].styke.color = 'green'   it will work
+nodelist mein foreach use karsakte
+templilist.foreach(function (l){
+    l.style.backgroundColor = 'green'
+})
+ const tempclasslist = document.getelementbyclassName(list-item)  convert karna parega
+ Array.from(tempclasslist)  converts into array 
+ 
+ })
+const myconvertedarr = Array.from(tempclasslist)
+myconvertedarrf.foreach(function(li){
+    li.stylr.color = 'orange'
+})
+  class ko quesry selector mein .lgakr access karna
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
