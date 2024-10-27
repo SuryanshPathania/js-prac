@@ -24,9 +24,13 @@ let str2 = "   hitesh"
 
 
 let gameCounter =100
-// gameCounter++ 
+gameCounter++ 
 ++gameCounter
 console.log(gameCounter);
 
 
 
+
+// Explanation:
+// ++gameCounter increments gameCounter by 1 before using its value.
+// gameCounter++ (commented out here) would also increment gameCounter by 1, but after its current value is used.
