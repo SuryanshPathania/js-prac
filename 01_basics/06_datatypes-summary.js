@@ -2,7 +2,7 @@
 //primitive   (call by value) copy of real value
 // 7 types : String , number , boolean , null , undefined , symbol , BigInt
 
-// JavaScript is a dynamically typed language. ou do not need to explicitly specify the type of a variable when you declare it.
+// JavaScript is a dynamically typed language.  do not need to explicitly specify the type of a variable when you declare it.
 
 // reference type (non primitive) change in original value
 // Array , Objects , Functions 
@@ -53,3 +53,11 @@ userTwo.email = "anshu@google"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+
+
+// JavaScript assigns the reference of the userOne object to userTwo, meaning both variables point to the same object in memory.
+
+// When you update userTwo.email:
+
+
+// Since both userOne and userTwo point to the same object, this change affects userOne as well.

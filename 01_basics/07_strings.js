@@ -26,7 +26,11 @@ console.log(gameName.indexOf("t"));
 const newString = gameName.substring(0, 4)// last vali value nhi aati
 console.log(newString);
 
-const anotherString = gameName.slice(-7 , 4)
+const anotherString = gameName.slice(-7 , 4)  // -7 means 0 not including character at 4
+// The slice method in JavaScript accepts negative indices to count from the end of the string:
+
+// -1 refers to the last character.
+// -2 refers to the second-to-last character, and so on.
 // Extract a section of a string and return it as a new string.
 // Do not modify the original string.
 //slice(start, end): Extracts characters from the start index up to, but not including, the end index.
