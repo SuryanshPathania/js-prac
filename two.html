@@ -7,21 +7,31 @@
 </head>
 <body>
     <h1>Chai aur code</h1>
+    <button id="start">Start</button>
     <button id="stop">Stop</button>
 </body>
 <script>
-    const sayHitesh = function(){
-        console.log("Hitesh");
-    }
-    const changeText = function(){
-        document.querySelector('h1').innerHTML = "best JS series"
-    }
+    let changeMe;
 
-    const changeMe = setTimeout(changeText, 2000)
+    const changeText = function() {
+        document.querySelector('h1').innerHTML = "best JS series";
+    };
 
-    document.querySelector('#stop').addEventListener('click', function(){
-        clearTimeout(changeMe) //clearTimeout(changeMe): Cancels the timer set by setTimeout for changeText
-        console.log("STOPPED")
-    })
+    // Start the timer
+    document.querySelector('#start').addEventListener('click', function() {
+        if (!changeMe) { // Prevents multiple timers
+            changeMe = setTimeout(changeText, 2000);
+            console.log("STARTED");
+        }
+    });
+
+    // Stop the timer
+    document.querySelector('#stop').addEventListener('click', function() {
+        if (changeMe) {
+            clearTimeout(changeMe);
+            changeMe = null; // Reset the timer variable
+            console.log("STOPPED");
+        }
+    });
 </script>
 </html>

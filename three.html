@@ -6,17 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Chai aur Javascript</h1>
+    <h1>Chai aur code</h1>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
 </body>
 <script>
-    const sayDate = function(str){
-        console.log(str, Date.now());
-    }
+    let changeMe;
 
-    const intervalId = setInterval(sayDate, 1000, "hi")
+    const changeText = function() {
+        document.querySelector('h1').innerHTML = "best JS series";
+    };
 
-    clearInterval(intervalId)
+    // Start the timer
+    document.querySelector('#start').addEventListener('click', function() {
+        if (!changeMe) { // Prevents multiple timers
+            changeMe = setTimeout(changeText, 2000);
+            console.log("STARTED");
+        }
+    });
+
+    // Stop the timer
+    document.querySelector('#stop').addEventListener('click', function() {
+        if (changeMe) {
+            clearTimeout(changeMe);
+            changeMe = null; // Reset the timer variable
+            console.log("STOPPED");
+        }
+    });
 </script>
 </html>
